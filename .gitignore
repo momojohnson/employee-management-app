@@ -1,0 +1,7 @@
+*.pyc
+instance/
+.c9
+venv
+Root User: mjohn
+Database Name: c9
+*__pycache
