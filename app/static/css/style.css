@@ -8,6 +8,9 @@ body, h1, h2, h3 {
     font-weight: 700;
 }
 
+body{
+    background-color: grey;
+}
 a, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
   color: #aec251;
 }
@@ -57,11 +60,17 @@ p.copyright {
   clear: both;
   height: 4em;
 }
+footer{
+    background-color: #d2d1d1 !important;
+}
 
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid #d2d1d1;
+}
+.navbar-default{
+    background-color: #d2d1d1 !important
 }
 
 .intro-header {
@@ -71,7 +80,7 @@ p.copyright {
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
 }
 
 .intro-message {
