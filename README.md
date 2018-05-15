@@ -26,6 +26,9 @@ export FLASK_CONFIG=development
 export FLASK_APP=run.py 
 flask run 
 ```
+** For link to the program online, [click here](http://johnsonmomo.pythonanywhere.com/)**
+
+To perform the crud operation or assign an employee to a task, you must be ogin as admin user. Run Flash shell and query any employee and set the is_admin attribute to **True**.
 
 
 
