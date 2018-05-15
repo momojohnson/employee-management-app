@@ -12,6 +12,7 @@ class ProductionConfig(Config):
 
 class TestingConfig(Config):
     Testing = True
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 app_config = {
     'development': DevelopmentConfig,
